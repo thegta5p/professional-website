@@ -2,22 +2,22 @@
   {
     "title": "Background",
     "image": "https://www.adorama.com/alc/wp-content/uploads/2015/05/stories-HRX5WXFyB64-unsplash.jpg",
-    "content": "This is a test"
+    "content": "I am first generation college student who is studying at the University of California, Riverside. I am majoring in computer science. I grew up in the Riverside area for most of my life. At UCR I worked in the ACM club making various react websites for other school clubs."
   },
   {
     "title": "Interests",
     "image": "https://www.stevens.edu/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fmviowpldu823%2F3DjsfDKUSWQBfdWMEbecCQ%2F24f09c374ddb299ee332352fd69e4042%2FSES-Computer-Science-1900862161.jpg%3Fw%3D1200%26h%3D675%26q%3D80%26fit%3Dfill&w=2400&q=80",
-    "content": ""
+    "content": "My Intrests include web development, game development, and mobile app development. My prefered interst is in web development. I have created a few websites using React and Next.js. Primairly I enjoy doing front end devlopment, but I know how to do some backend stuff. This includes database management and doing api calls. "
   },
   {
     "title": "Career Goals",
     "image":"https://tumo.org/wp-content/uploads/2017/08/web-dev.png",
-    "content": ""
+    "content": "My main goal right now is to find a starting position working on front-end development. I really enjoy working with React and Next.js. I am also intrested in working with other frameworks such as Angular.Js and Vue.js. Future goals include working on developing mobile apps using react native. Another goal of mine is to help manage devloping web applications."
   },
   {
     "title": "Hobbies",
     "image": "https://assets.classicfm.com/2017/01/piano-v4r-1483624599-editorial-long-form-0.jpg",
-    "content": ""
+    "content": "I really enjoy playing and composing music. I primairly like to play the piano. I know how to play other isntrucments such as the guitar, clarinet, and percussion. Another hobby of mine is I like collecting anime figures. I have a collection of figures from various animes and of various characters. Other hobbies of mine include playing video games and watching anime."
   }
 
 ]

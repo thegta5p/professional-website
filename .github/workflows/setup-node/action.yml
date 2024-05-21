@@ -19,5 +19,6 @@ runs:
     - name: Install dependencies 🔧
       shell: bash
       if: steps.cache_dependencies.outputs.cache-hit != 'true'
-      run: npm install
-      run: npm install react-icons --save
+      run: |
+      npm install
+      npm install react-icons --save

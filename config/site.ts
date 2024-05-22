@@ -10,7 +10,7 @@ export const siteConfig = {
     },
     {
       label: "Education/Skills",
-      href: "/docs",
+      href: "/education",
     },
     {
       label: "Experience",

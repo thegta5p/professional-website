@@ -1,5 +1,4 @@
 "use client";
-import { title } from "@/components/primitives";
 import { Card, CardHeader, CardBody, CardFooter } from "@nextui-org/card";
 import {
   Modal,

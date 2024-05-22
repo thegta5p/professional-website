@@ -18,7 +18,7 @@ export const siteConfig = {
     },
     {
       label: "Extracurriculars",
-      href: "/blog",
+      href: "/extracurriculars",
     },
     {
       label: "About",

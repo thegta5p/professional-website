@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "title": "R-mate",
+        "content": "I helped develop this app using react native. I was mostly in charge of fixing visual bugs and fixing existing features. This app is meant to help UCR students get information about various facilities on campus including parking or dining hall hours.",
+        "dates" : "June 2023- August 2023"
+    },
+    {
+        "id": 2,
+        "title": "R-tools",
+        "content": "I was in charge of creating various components for the website. In addition I help create entire pages of the website. The tech stack for this was react, tailwindcss, and Next.js. This website is meant to help UCR computer scieence students with their classes. It includes features such as various algorithms or a boolean table maker and calculator.",
+        "dates" : "October 2023 - March 2024"
+    },
+    {
+        "id": 3,
+        "title": "Vex Robotics Website",
+        "content": "I am mostly in charge of making various components. In addition I helped develop animations for various components. This tech stack for this was react, tailwindcss, and Next.js. This website is mean for the Vex Robotics club at UCR.",
+        "dates" : "March 2024- June 2024"
+    }
+]

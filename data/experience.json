@@ -1,0 +1,33 @@
+[
+    {
+        "id": 1,
+        "title": "ACM@UCR",
+        "description": "Web Development",
+        "date": "June 2023 - Present"
+    },
+    {
+        "id": 2,
+        "title": "Figure Database Website",
+        "description": "Full Stack Development",
+        "date": "May 2024 - Present"
+    },
+    {
+        "id": 3,
+        "title": "Internship at Sweet-Tooth",
+        "description": "Front-end Development",
+        "date": "Jan 2024 - May 2024"
+    },
+    {
+
+        "id": 4,
+        "title": "Radar-Gaming",
+        "description": "Project, Front-end Development",
+        "date": "Oct 2023 - Dec 2023"
+    },
+    {
+        "id": 5,
+        "title": "Video Game Character Website",
+        "description": "Project, Front-end Development",
+        "date": "June 2023 - Aug 2023"
+    }
+]

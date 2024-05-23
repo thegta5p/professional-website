@@ -38,6 +38,13 @@ export default function BigFlex() {
 
   return (
     <div>
+      <div className="justify-center gap-4 py-8 text-center">
+        <h1 className="text-4xl font-bold">Anime Search</h1>
+        <p className="text-lg">
+          Search for your favorite anime and get information on it.
+        </p>
+        <p className="text-lg">You can search by category or by anime name.</p>
+      </div>
       <div className="flex flex-row items-center justify-center gap-4 py-8 md:py-10">
         <Select
           label="Select Search Filter"

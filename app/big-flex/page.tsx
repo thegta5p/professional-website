@@ -30,7 +30,6 @@ export default function BigFlex() {
     try {
       const animeData = await fetch(url).then((animeData) => animeData.json());
       console.log(animeData);
-      alert(animeData.data[0].attributes.canonicalTitle);
       setAnimeListing(animeData.data);
     } catch (error) {
       console.error(error);

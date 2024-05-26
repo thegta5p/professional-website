@@ -10,10 +10,11 @@ export default function Extracurriculars() {
                 <Tab key={item.id} title={item.title}>
                     <Card>
                         <CardHeader>
-                            <h1>{item.title}</h1>
+                            <h1 className="text-xl font-bold">{item.title}</h1>
                         </CardHeader>
                         <CardBody>
                             <p>{item.content}</p>
+                            <p className="mt-4">Date: {item.dates}</p>
                         </CardBody>
                     </Card>
                 </Tab>

@@ -13,6 +13,7 @@ import {
 import React from "react";
 
 import AboutData from "../../data/about.json";
+import Resume from "@/components/resume";
 export default function AboutPage() {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const [content, setContent] = React.useState("test");
@@ -61,6 +62,7 @@ export default function AboutPage() {
           )}
         </ModalContent>
       </Modal>
+      <Resume />
     </div>
   );
 }

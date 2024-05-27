@@ -10,6 +10,7 @@ export default function BigFlex() {
   const [value, setValue] = React.useState("");
   const [filter, setFilter] = React.useState("");
   const [animeListing, setAnimeListing] = React.useState([]);
+  const [inputEnabled, setInputEnabled] = React.useState(true);
 
   const filterOptions = [
     {
@@ -23,6 +24,7 @@ export default function BigFlex() {
   ];
   const handleSelectionChange = (e) => {
     setFilter(e.target.value);
+    setInputEnabled(false);
   };
 
   const handleRequest = async () => {
@@ -51,6 +53,7 @@ export default function BigFlex() {
           placeholder="Select Search Filter"
           selectedKeys={[filter]}
           onChange={handleSelectionChange}
+          isRequired
           className="w-1/6"
         >
           {filterOptions.map((option) => (
@@ -68,8 +71,13 @@ export default function BigFlex() {
           onKeyDown={(e) => {
             if (e.key === "Enter") handleRequest();
           }}
+          isDisabled={inputEnabled}
         />
-        <Button className="bg-blue-600" onPress={handleRequest}>
+        <Button
+          className="bg-blue-600"
+          onPress={handleRequest}
+          isDisabled={inputEnabled}
+        >
           Search
         </Button>
       </div>

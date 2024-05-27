@@ -32,7 +32,7 @@ export default function AboutPage() {
         {AboutData.map((data) => (
           <Card key={data.title}>
             <CardHeader className="absolute top-0 bg-black/40">
-              <h1 className="text-xl">{data.title}</h1>
+              <h1 className="text-xl text-white">{data.title}</h1>
             </CardHeader>
             <Image
               removeWrapper
@@ -45,8 +45,9 @@ export default function AboutPage() {
                 <Button
                   key={data.title}
                   onPress={() => handleOpen(data.content, data.title)}
+                  className="bg-blue-500"
                 >
-                  Read More
+                  <p className="text-white">Read More</p>
                 </Button>
               </motion.div>
             </CardFooter>

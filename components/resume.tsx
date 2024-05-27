@@ -7,7 +7,7 @@ const resume = () => {
     <div className="mt-12">
       <h1 className="text-xl">Here is a link to my resume:</h1>
       <Button onPress={() => window.open(Resume)} className="mt-4 bg-blue-500">
-        Resume
+        <p className="text-white">Resume</p>
       </Button>
     </div>
   );

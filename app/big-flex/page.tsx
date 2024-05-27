@@ -78,7 +78,7 @@ export default function BigFlex() {
           onPress={handleRequest}
           isDisabled={inputEnabled}
         >
-          Search
+          <p className="text-white">Search</p>
         </Button>
       </div>
       <div className="grid grid-cols-4 gap-12">

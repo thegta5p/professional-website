@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { Link } from "@nextui-org/link";
 import GitHubLogo from "../public/github-mark.svg";
-import LinkedInLogo from "../public/In-White-14@2x.png";
+import LinkedInLogo from "../public/In-Blue-14@2x.png";
 import { MdOutlineMail } from "react-icons/md";
 
 const footer = () => {

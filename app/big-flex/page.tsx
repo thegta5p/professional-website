@@ -65,6 +65,7 @@ export default function BigFlex() {
           className="w-1/3"
           value={value}
           onValueChange={setValue}
+          onKeyDown={(e) => {if (e.key === "Enter") handleRequest();}}
         />
         <Button className="bg-blue-600" onPress={handleRequest}>
           Search

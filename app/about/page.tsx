@@ -11,6 +11,7 @@ import {
   Image,
 } from "@nextui-org/react";
 import React from "react";
+import {motion} from "framer-motion";
 
 import AboutData from "../../data/about.json";
 import Resume from "@/components/resume";
@@ -40,12 +41,14 @@ export default function AboutPage() {
               className="z-0 w-full h-full object-cover"
             />
             <CardFooter className="absolute bottom-0">
-              <Button
-                key={data.title}
-                onPress={() => handleOpen(data.content, data.title)}
-              >
-                Read More
-              </Button>
+              <motion.div whileHover={{scale: 1.1}} transition={{type: "spring", stiffness: 400, damping: 10}} >
+                <Button
+                  key={data.title}
+                  onPress={() => handleOpen(data.content, data.title)}
+                >
+                  Read More
+                </Button>
+              </motion.div>
             </CardFooter>
           </Card>
         ))}

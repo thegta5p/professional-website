@@ -13,6 +13,7 @@ import {
   Button,
   Link,
 } from "@nextui-org/react";
+import { motion } from "framer-motion";
 
 const AnimeTiles = ({
   title,
@@ -30,12 +31,17 @@ const AnimeTiles = ({
 
   return (
     <div>
-      <Card isPressable onPress={onOpen}>
-        <Image src={coverImage} alt={title} className="z-1" />
-        <CardFooter>
-          <h1>{title}</h1>
-        </CardFooter>
-      </Card>
+      <motion.div
+        whileHover={{ scale: 1.1 }}
+        transition={{ type: "tween", stiffness: 200, damping: 20 }}
+      >
+        <Card isPressable onPress={onOpen}>
+          <Image src={coverImage} alt={title} className="z-1" />
+          <CardFooter>
+            <h1>{title}</h1>
+          </CardFooter>
+        </Card>
+      </motion.div>
       <Modal isOpen={isOpen} onClose={onClose} size="5xl">
         <ModalContent>
           {(onClose) => (
